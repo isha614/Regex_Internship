@@ -1,5 +1,4 @@
 import React from "react";
-import '../css/aboutus.css';
 
 export default function AboutUs() {
   return (
@@ -32,10 +31,9 @@ export default function AboutUs() {
               </div>
             </div>
           </div>
-          <a className="btn btn-primary rounded-pill py-3 px-5 mt-2" href="/">Read More</a>
+          <a className="btn btn-primary text-white rounded-pill py-3 px-5 mt-2" href="/">Read More</a>
         </div>
       </div>
     </div>
   )
 }
-
