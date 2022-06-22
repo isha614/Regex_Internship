@@ -1,6 +1,5 @@
 import React from "react";
 import NavBar from "./Components/NavBar";
-import Home from "./Components/Home";
 import About from "./Components/About";
 import Services from "./Components/Services";
 import TeamMembers from "./Components/TeamMembers";
@@ -12,12 +11,13 @@ const App=()=>{
   return(
     <>
          <NavBar/>
-         <Home/>
+      
          <About/>
          <Services/>
          <TeamMembers/>
          <Contact/>
          <Footer/>
+         
     </>
   )
 }
