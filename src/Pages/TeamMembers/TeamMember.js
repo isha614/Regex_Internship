@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./TeamMember.css";
 const TeamMembers=()=>{
     return (
         <>

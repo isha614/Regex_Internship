@@ -1,11 +1,11 @@
 import React from "react";
-import NavBar from "./Components/NavBar";
-import About from "./Components/About";
-import Services from "./Components/Services";
-import TeamMembers from "./Components/TeamMembers";
-import Contact from "./Components/Contact";
-import Footer from "./Components/Footer";
-import Features from "./Components/Features";
+import NavBar from "./Pages/NavBar/NavBar";
+import About from "./Pages/AboutUs/AboutUs";
+import Services from "./Pages/Services/Services";
+import TeamMembers from "./Pages/TeamMembers/TeamMember";
+import Contact from "./Pages/Contact/Contact";
+import Footer from "./Pages/Footer/Footer";
+import Features from "./Pages/Features/Features";
 
 
 const App=()=>{
