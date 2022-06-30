@@ -1,4 +1,5 @@
 import React from "react";
+import "../../bootstrap.min.css";
 import "./Footer.css";
 const Footer=()=>{
     return (
