@@ -6,7 +6,7 @@ export default function AboutUs() {
     <div className="container">
       <div className="row g-5 align-items-center">
         <div className="col-lg-6 wow zoomIn" data-wow-delay="0.1s">
-          <img className="img-fluid" src="https://th.bing.com/th/id/OIP.NIQ-1ceyMhK-6SEu6zAj3wAAAA?pid=ImgDet&rs=1" alt="about-img" />
+          <img className="img-fluid" src="Image/about.png" alt="about-img" />
         </div>
         <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
           <div className="d-inline-block border rounded-pill text-primary px-4 mb-3">About Us</div>
