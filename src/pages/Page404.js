@@ -1,11 +1,11 @@
 import React from "react";
 
-const Service=()=>{
+const Page404=()=>{
     return(
         <>
-        <h1>Service  Page</h1>
+        <h1>Page404  Page</h1>
         
         </>
     )
 }
- export default Service;
+ export default Page404;
