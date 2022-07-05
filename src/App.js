@@ -1,23 +1,36 @@
 import React from "react";
-import NavBar from "./components/NavBar/NavBar";
-import About from "./components/AboutUs/AboutUs";
-import Services from "./components/Services/Services";
-import TeamMembers from "./components/TeamMembers/TeamMember";
-import Contact from "./components/Contact/Contact";
-import Footer from "./components/Footer/Footer";
-import Features from "./components/Features/Features";
+import Home from "./pages/Home";
+import Feature from "./pages/Feature";
+import Quote from "./pages/FreeQuote";
+import { Route,Routes } from "react-router";
+import Contact from "./pages/Contact";
+import Page404 from "./pages/Page404";
+import About from "./pages/AboutUs";
+import Service from "./pages/Services";
+import Team from "./pages/Team";
+import Testimonial from "./pages/Testimonial";
 
 
 const App=()=>{
   return(
     <>
-         <NavBar/>
-         <About/>
-         <Services/>
-         <Features/>
-         <TeamMembers/>
-         <Contact/>
-         <Footer/>
+
+    <Routes>
+      <Route path="/" element={<Home/>} />
+      <Route path="/Feature" element={<Feature/>} />
+      <Route path="/Quote" element={<Quote/>} />
+      <Route path="/Contact" element={<Contact/>} />
+      <Route path="/404" element={<Page404/>} />
+      <Route path="/About" element={<About/>} />
+      <Route path="/Service" element={<Service/>} />
+      <Route path="/Team" element={<Team/>} />
+      <Route path="/Testimonial" element={<Testimonial/>} />
+   
+
+    </Routes>
+  
+       
+       
          
     </>
   )
