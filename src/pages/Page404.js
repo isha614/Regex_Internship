@@ -1,11 +1,33 @@
 import React from "react";
+import NavBar from "../components/NavBar/NavBar";
+import Banner from "../components/Banner/Banner";
+import Footer from "../components/Footer/Footer";
 
-const Page404=()=>{
-    return(
-        <>
-        <h1>Page404  Page</h1>
+const Page404 = () => {
+  return (
+    <>
+      <div className="container-xxl position-relative p-0">
+        <NavBar />
         
-        </>
-    )
-}
- export default Page404;
+        <Banner title="Not Found" submenu="404" />
+
+        {/* 404 Start */}
+        <div class="container text-center">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <i class="bi bi-exclamation-triangle display-1 text-primary"></i>
+                        <h1 class="display-1">404</h1>
+                        <h1 class="mb-4">Page Not Found</h1>
+                        <p class="mb-4">We’re sorry, the page you have looked for does not exist in our website! Maybe go to our home page or try to use a search?</p>
+                        <a class="btn btn-primary rounded-pill py-3 px-5" href="">Go Back To Home</a>
+                    </div>
+                </div>
+            </div>
+        {/* 404 End */}
+        
+        <Footer />
+      </div>
+    </>
+  );
+};
+export default Page404;
