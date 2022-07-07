@@ -3,6 +3,7 @@
     margin-bottom: 6rem;
     padding: 12rem 0 9rem 0;
     background: url(../../../public/Image/shape-bottom.png) center bottom no-repeat;
+    background-size: contain;
 }
 
 .page-header {
