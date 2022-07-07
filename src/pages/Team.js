@@ -1,10 +1,16 @@
 import React from "react";
+import NavBar from "../components/NavBar/NavBar";
+import Banner from "../components/Banner/Banner";
+import TeamMembers from "../components/TeamMembers/TeamMember";
+import Footer from "../components/Footer/Footer";
 
 const Team=()=>{
     return(
         <>
-        <h1>Team  Page</h1>
-        
+        <NavBar />
+        <Banner title="Our Team" submenu="Our Team" />
+        <TeamMembers />
+        <Footer />      
         </>
     )
 }

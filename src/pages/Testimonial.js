@@ -1,11 +1,17 @@
 import React from "react";
+import NavBar from "../components/NavBar/NavBar";
+import Banner from "../components/Banner/Banner";
+import Testimonial from "../components/Testimonial/Testimonial";
+import Footer from "../components/Footer/Footer";
 
-const Testimonial=()=>{
-    return(
-        <>
-        <h1>Testimonial  Page</h1>
-        
-        </>
-    )
-}
- export default Testimonial;
+const TestimonialPage = () => {
+  return (
+    <>
+      <NavBar />
+      <Banner title="Testimonial" submenu="Testimonial" />
+      <Testimonial />
+      <Footer />
+    </>
+  );
+};
+export default TestimonialPage;

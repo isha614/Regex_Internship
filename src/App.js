@@ -8,7 +8,7 @@ import Page404 from "./pages/Page404";
 import About from "./pages/AboutUs";
 import Service from "./pages/Services";
 import Team from "./pages/Team";
-import Testimonial from "./pages/Testimonial";
+import TestimonialPage from "./pages/Testimonial";
 
 
 const App=()=>{
@@ -24,7 +24,7 @@ const App=()=>{
       <Route path="/About" element={<About/>} />
       <Route path="/Service" element={<Service/>} />
       <Route path="/Team" element={<Team/>} />
-      <Route path="/Testimonial" element={<Testimonial/>} />
+      <Route path="/Testimonial" element={<TestimonialPage/>} />
    
 
     </Routes>
