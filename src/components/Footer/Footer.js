@@ -1,8 +1,10 @@
 import React from "react";
 import "../../bootstrap.min.css";
 import "./Footer.css";
+import BackToTop from "./BackToTop";
 const Footer=()=>{
     return (
+      <>
         <div className="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s" style={{marginTop: '6rem'}}>
         <div className="container py-5">
           <div className="row g-5">
@@ -24,16 +26,16 @@ const Footer=()=>{
             </div>
             <div className="col-md-6 col-lg-3">
               <h5 className="text-white mb-4">Quick Link</h5>
-              <a className="btn btn-link" href>About Us</a>
-              <a className="btn btn-link" href>Contact Us</a>
+              <a className="btn btn-link" href='/About'>About Us</a>
+              <a className="btn btn-link" href='/Contact'>Contact Us</a>
               <a className="btn btn-link" href>Privacy Policy</a>
               <a className="btn btn-link" href>Terms &amp; Condition</a>
               <a className="btn btn-link" href>Career</a>
             </div>
             <div className="col-md-6 col-lg-3">
               <h5 className="text-white mb-4">Popular Link</h5>
-              <a className="btn btn-link" href>About Us</a>
-              <a className="btn btn-link" href>Contact Us</a>
+              <a className="btn btn-link" href='/About'>About Us</a>
+              <a className="btn btn-link" href='/Contact'>Contact Us</a>
               <a className="btn btn-link" href>Privacy Policy</a>
               <a className="btn btn-link" href>Terms &amp; Condition</a>
               <a className="btn btn-link" href>Career</a>
@@ -62,12 +64,14 @@ const Footer=()=>{
                
               </div>
               <div className="col-md-6 text-center text-md-end">
-                
+              <a href="#" classname="btn btn-lg btn-primary btn-lg-square back-to-top"><i classname="bi bi-arrow-up" /></a>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <BackToTop/>
+      </>
     )
 }
 export default Footer;
