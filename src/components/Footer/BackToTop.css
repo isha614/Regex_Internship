@@ -1,0 +1,10 @@
+.back-to-top {
+  position: fixed;
+  display: none;
+  right: 45px;
+  bottom: 45px;
+  z-index: 99;
+}
+.bi-arrow-up {
+  padding-top: 8px;
+}
