@@ -26,16 +26,16 @@ const Footer=()=>{
             </div>
             <div className="col-md-6 col-lg-3">
               <h5 className="text-white mb-4">Quick Link</h5>
-              <a className="btn btn-link" href>About Us</a>
-              <a className="btn btn-link" href>Contact Us</a>
+              <a className="btn btn-link" href='/About'>About Us</a>
+              <a className="btn btn-link" href='/Contact'>Contact Us</a>
               <a className="btn btn-link" href>Privacy Policy</a>
               <a className="btn btn-link" href>Terms &amp; Condition</a>
               <a className="btn btn-link" href>Career</a>
             </div>
             <div className="col-md-6 col-lg-3">
               <h5 className="text-white mb-4">Popular Link</h5>
-              <a className="btn btn-link" href>About Us</a>
-              <a className="btn btn-link" href>Contact Us</a>
+              <a className="btn btn-link" href='/About'>About Us</a>
+              <a className="btn btn-link" href='/Contact'>Contact Us</a>
               <a className="btn btn-link" href>Privacy Policy</a>
               <a className="btn btn-link" href>Terms &amp; Condition</a>
               <a className="btn btn-link" href>Career</a>
