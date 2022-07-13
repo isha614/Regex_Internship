@@ -1,7 +1,7 @@
 import React from "react";
 import "../../bootstrap.min.css";
 import "./Services.css";
-import ServiceCard from "./utilities/serviceCards/ServiceCard";
+import ServiceCard from "../../utilities/serviceCards/ServiceCard";
 const Services=()=>{
   let props={
     paraText:"Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem."

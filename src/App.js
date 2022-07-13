@@ -2,7 +2,7 @@ import React from "react";
 import Home from "./pages/Home";
 import Feature from "./pages/Feature";
 import Quote from "./pages/FreeQuote";
-import { Route,Routes } from "react-router";
+import { Route, Routes } from "react-router";
 import Contact from "./pages/Contact";
 import Page404 from "./pages/Page404";
 import About from "./pages/AboutUs";
