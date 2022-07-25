@@ -28,17 +28,17 @@ const Footer=()=>{
               <h5 className="text-white mb-4">Quick Link</h5>
               <a className="btn btn-link" href='/About'>About Us</a>
               <a className="btn btn-link" href='/Contact'>Contact Us</a>
-              <a className="btn btn-link" href>Privacy Policy</a>
-              <a className="btn btn-link" href>Terms &amp; Condition</a>
-              <a className="btn btn-link" href>Career</a>
+              <a className="btn btn-link" href="">Privacy Policy</a>
+              <a className="btn btn-link" href="">Terms &amp; Condition</a>
+              <a className="btn btn-link" href="">Career</a>
             </div>
             <div className="col-md-6 col-lg-3">
               <h5 className="text-white mb-4">Popular Link</h5>
               <a className="btn btn-link" href='/About'>About Us</a>
               <a className="btn btn-link" href='/Contact'>Contact Us</a>
-              <a className="btn btn-link" href>Privacy Policy</a>
-              <a className="btn btn-link" href>Terms &amp; Condition</a>
-              <a className="btn btn-link" href>Career</a>
+              <a className="btn btn-link" href="">Privacy Policy</a>
+              <a className="btn btn-link" href="">Terms &amp; Condition</a>
+              <a className="btn btn-link" href="">Career</a>
             </div>
             <div className="col-md-6 col-lg-3">
               <h5 className="text-white mb-4">Newsletter</h5>
@@ -64,7 +64,7 @@ const Footer=()=>{
                
               </div>
               <div className="col-md-6 text-center text-md-end">
-              <a href="#" classname="btn btn-lg btn-primary btn-lg-square back-to-top"><i classname="bi bi-arrow-up" /></a>
+              <a href="#" className="btn btn-lg btn-primary btn-lg-square back-to-top"><i className="bi bi-arrow-up" /></a>
               </div>
             </div>
           </div>

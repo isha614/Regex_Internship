@@ -9,7 +9,7 @@ const ServiceCard=({iconUrl,paraHead,paraText})=>{
                   <div className="service-icon">
                     <i className={iconUrl} />
                   </div>
-                  <a className="service-btn" href>
+                  <a className="service-btn" href="">
                     <i className="fa fa-link fa-2x" />
                   </a>
                 </div>

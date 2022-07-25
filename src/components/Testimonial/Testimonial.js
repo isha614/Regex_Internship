@@ -1,11 +1,13 @@
 import React from "react";
-
 import "./Testimonial.css";
+import OwlCarousel from 'react-owl-carousel';  
+import 'owl.carousel/dist/assets/owl.carousel.css';  
+import 'owl.carousel/dist/assets/owl.theme.default.css'; 
 
 export default function Testimonial() {
   return (
     <>
-      <div class="container-xxl bg-white p-0">
+      <div className="container-xxl bg-white p-0">
         <div className="container-xxl py-6">
           <div className="container">
             <div
@@ -19,9 +21,10 @@ export default function Testimonial() {
               <h2 className="mb-5">What Our Clients Say!</h2>
             </div>
             <div
-              className="owl-carousel testimonial-carousel wow fadeInUp"
+              className="testimonial-carousel wow fadeInUp"
               data-wow-delay="0.1s"
             >
+            <OwlCarousel items={3} className="owl-theme" loop nav margin={8} >
               <div className="testimonial-item rounded p-4">
                 <i className="fa fa-quote-left fa-2x text-primary mb-3"></i>
                 <p>
@@ -94,6 +97,7 @@ export default function Testimonial() {
                   </div>
                 </div>
               </div>
+              </OwlCarousel>
             </div>
           </div>
         </div>
